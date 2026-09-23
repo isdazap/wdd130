@@ -1,21 +1,25 @@
+:root {
+    --main-color: darkblue;
+    --secondary-color: white;
+}
+
 main {
     max-width: 840px;
 }
 
 nav {
-    background-color: darkblue;
+    background-color: var(--main-color);
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: var(--secondary-color);
     display: block;
     padding: 20px;
 }
 
 h1 {
-    color: darkblue;
-
+    color: var(--main-color);
 }
 
 main img {
@@ -33,9 +37,9 @@ p {
 aside {
     width: 400px;
     margin: 1rem;
-    border: 2px solid darkblue;
+    border: 2px solid var(--main-color);
     padding: 1rem;
-    background-color: white;
+    background-color: var(--secondary-color);
     color: #000;
     text-align: center;
 }
