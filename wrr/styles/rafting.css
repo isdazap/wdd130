@@ -3,7 +3,7 @@
     --secondary-color: #5c2a0d;
     --accent1-color: #c7966e;
     --accent2-color: #e6e6e6;
-    --header-font: 'Times New Roman', serif;
+    --heading-font: 'Times New Roman', serif;
     --body-font: 'Arial', sans-serif;
 }
 * { margin: 0; 
@@ -23,7 +23,7 @@ header, main, footer {
 }
 
 h1, h2 {
-    font-family: var(--header-font);
+    font-family: var(--heading-font);
     color: var(--accent1-color);
 }
 
@@ -59,6 +59,7 @@ h1 {
 }
 
 .hero article img {
+    position: absolute;
     float: right;
     width: 125px;
 }
