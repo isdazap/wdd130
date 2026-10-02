@@ -141,6 +141,7 @@ h1 {
     position: absolute;
     text-align: center;
     padding: 16px;
+    color: var(--primary-color);
 }
 
 .history img {
@@ -164,6 +165,7 @@ h1 {
     position: absolute;
     text-align: center;
     padding: 16px;
+    color: var(--primary-color);
 }
 
 .adventure img {
