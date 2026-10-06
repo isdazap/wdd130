@@ -1,8 +1,8 @@
 :root {
-    --primary-color: rgba(23, 71, 25, 0.8);
+    --primary-color: rgba(16, 49, 17, 0.8);
     --secondary-color: rgb(92, 42, 13);
-    --accent1-color: rgb(214, 183, 158);
-    --accent2-color: rgb(221, 199, 170);
+    --accent1-color: rgb(214, 188, 166);
+    --accent2-color: rgb(221, 208, 191);
     --heading-font: 'Times New Roman', serif;
     --body-font: 'Arial', sans-serif;
 }
@@ -83,12 +83,7 @@ nav, p, section, article {
     height: auto;
 }
 
-/* .hero-text {
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    top: 20px;
-} */
+
 h1 {
     position: absolute;
     top: 20px;
@@ -101,7 +96,7 @@ h1 {
 }
 
 .hero article {
-    top: 150px;
+    top: 26%;
     right: 1%;
     width: 50%;
     min-width: 500px;
@@ -117,7 +112,8 @@ h1 {
     right: 8px;
     top: 10px;
     width: 125px;
-    margin: 8px;
+    margin: 4px;
+    padding: 4px;
     opacity: 1;
 }
 .hero-text article {
