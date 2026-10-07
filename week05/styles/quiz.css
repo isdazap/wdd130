@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+
+}
+
+main {
+    max-width: 500px;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    padding: 1rem;
+    background-color: #eee;
+    color: #030303;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: #000000;
+    margin: .5rem;
+    text-align: center;
+}
