@@ -1,8 +1,8 @@
 :root {
-    --primary-color: rgba(16, 49, 17, 0.8);
-    --secondary-color: rgb(92, 42, 13);
+    --primary-color: rgba(7, 36, 8, 0.8);
+    --secondary-color: rgb(53, 24, 8);
     --accent1-color: rgb(214, 188, 166);
-    --accent2-color: rgb(221, 208, 191);
+    --accent2-color: rgb(241, 233, 222);
     --heading-font: 'Times New Roman', serif;
     --body-font: 'Arial', sans-serif;
 }
@@ -20,10 +20,6 @@ header {
     background-color: var(--accent2-color);
 }
 
-/* header img {
-    width: 200px;
-    height: auto;
-} */
 .flex {
     display: flex;
     justify-content: space-around;
