@@ -186,3 +186,87 @@ footer p {
     display: flex;
     gap: 12px;
 }
+
+.contact-info {
+    display: flex;
+    position:relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top:130px;
+}
+
+.contact-info p {
+    padding: 0;
+    margin: 0%;
+
+}
+
+.client-info {
+    display: flex;
+    flex-wrap: wrap;     
+    align-items: flex-start;
+    margin-top: 160px;
+    gap: 2rem;
+    background-color: var(--accent2-color);
+}
+
+iframe {
+    flex: 1 1 300px;       
+    max-width: 100%;
+    
+}
+
+form {
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column; 
+    gap: 12px;
+    height: 450px;
+    
+}
+
+.form-item {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.form-item input[type="text"],
+.form-item input[type="email"] {
+    flex: 1;                
+    padding: 8px;
+}
+ .form-item span{
+    flex: 0 0 90px;
+}
+
+.radio-options {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.radio-options label,
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  white-space: nowrap
+}
+
+ input , textarea , button{
+    border: 3px solid var(--secondary-color); 
+}
+
+button {
+    color: var(--accent2-color);
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover{
+    color: var(--secondary-color);
+    background-color: var(--accent2-color);
+}
