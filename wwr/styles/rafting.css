@@ -255,7 +255,7 @@ form {
   white-space: nowrap
 }
 
- input , textarea , button{
+ input , textarea , button, iframe{
     border: 3px solid var(--secondary-color); 
 }
 
