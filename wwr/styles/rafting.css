@@ -269,4 +269,14 @@ button {
 button:hover{
     color: var(--secondary-color);
     background-color: var(--accent2-color);
+
+}
+.workers img{
+    width: 250px;
+    height: 240px;
+ 
+}
+
+figcaption{
+    text-align: center;
 }
