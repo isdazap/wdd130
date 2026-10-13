@@ -56,7 +56,15 @@ header, main, footer {
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
+    text-align: center;
+    font-size: 1.8rem;
+    width: 100%;
+    padding: 16px;
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    margin-bottom: 10px;
 }
+
 
 nav, p, section, article {
     margin: 16px;
@@ -150,12 +158,10 @@ h1 {
     margin-bottom: 150px;
 }
 
-.adventure h2 {
-    top: -60px;
-    font-size: 1.8em;
-    position: absolute;
-    text-align: center;
-    padding: 16px;
+.title {
+    margin-top: 90px;
+    margin-bottom: -80px;
+    padding-bottom: 0;
 }
 
 .adventure img {
@@ -275,7 +281,7 @@ button:hover{
 .workers img{
     width: 250px;
     height: 240px;
- 
+    border-radius: 8px;
 }
 
 figcaption{
@@ -330,7 +336,7 @@ figcaption{
 .button button{
     width: 230px;
     height: 80px;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 
 table {
@@ -341,6 +347,7 @@ table {
     letter-spacing: 2px;
     margin: 0 auto;
 }
+
 
 th,td {
     border: 1px solid var(--primary-color);
@@ -353,4 +360,42 @@ thead th{
     background-color: var(--secondary-color);
     color: var(--accent2-color);
     font-weight: 700;
+}
+
+
+.trip-description {
+    display: flex;
+    flex-direction: column; 
+    gap: 32px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.trip-description article {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.trip-description img {
+    width: 100%;
+    max-width: 450px;    
+    min-width: 0;     
+    max-height: 280px;   
+    border-radius: 8px;
+}
+
+.trip-text {
+    width: 450px;
+    min-width: 200px;
+}
+
+
+.trip-text p {
+    margin: 0;
+}
+
+.trip-description .reverse {
+    flex-direction: row-reverse;
 }
