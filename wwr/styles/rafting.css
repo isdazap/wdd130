@@ -146,6 +146,7 @@ h1 {
 .history img {
     
     width: 30%;
+    border-radius: 8px;
 }
 
 .adventure {
@@ -169,6 +170,7 @@ h1 {
     height: 100px;
     margin-right: 5px;
     margin-left: 5px;
+    border-radius: 8px;
 }
 
 
@@ -216,6 +218,7 @@ footer p {
     margin-top: 160px;
     gap: 2rem;
     background-color: var(--accent2-color);
+    
 }
 
 iframe {
